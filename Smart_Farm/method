@@ -1,4 +1,5 @@
 데이터 모두 결측치 제거 => 훈련
 변수 바꿔가며
-아이디어 => ex: 에너지 공급량 영향 많이 받는 계절에 *value를 하는 등
+normalization(standardscaler, minmax scaler)
+외부 데이터 등 아이디어 => ex: 에너지 공급량 영향 많이 받는 계절에 *ratio를 하는 등
 
