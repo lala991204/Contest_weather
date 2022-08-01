@@ -1,5 +1,13 @@
 데이터 모두 결측치 제거 => 훈련
 변수 바꿔가며
-normalization(standardscaler, minmax scaler)
+normalization(standardscaler, minmax scaler)      => 여기까진 큰 진전 x
+
+
+참고 문헌 중, 관련 예측에 GRU이 성능 좋다는 얘기 있음 => GRU,LSTM,RNN등 시계열 모델 이용
+
+
+
+
+----------------------------------------------
 외부 데이터 등 아이디어 => ex: 에너지 공급량 영향 많이 받는 계절에 *ratio를 하는 등
 
