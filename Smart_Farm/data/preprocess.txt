@@ -1,4 +1,4 @@
-PREPROCESS1
+preprocess1
 =IFERROR(VLOOKUP($I2,$C:$G,COLUMNS($I$1:$J$1),0),"")
 
 =IFERROR(VLOOKUP($I2,$C:$G,COLUMNS($I$1:$K$1),0),"")
@@ -10,6 +10,13 @@ PREPROCESS1
 
 -----------------------------
 PREPROCESS2 (train)
+=IFERROR(VLOOKUP($G2,$A:$E,COLUMNS($G$1:$H$1),0),"")
+=IFERROR(VLOOKUP($G2,$A:$E,COLUMNS($G$1:$I$1),0),"")
+=IFERROR(VLOOKUP($G2,$A:$E,COLUMNS($G$1:$J$1),0),"")
+=IFERROR(VLOOKUP($G2,$A:$E,COLUMNS($G$1:$K$1),0),"")
+
+------------------------------
+PREPROCESS2 (test)
 =IFERROR(VLOOKUP($G2,$A:$E,COLUMNS($G$1:$H$1),0),"")
 =IFERROR(VLOOKUP($G2,$A:$E,COLUMNS($G$1:$I$1),0),"")
 =IFERROR(VLOOKUP($G2,$A:$E,COLUMNS($G$1:$J$1),0),"")
