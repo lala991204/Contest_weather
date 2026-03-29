@@ -28,6 +28,13 @@
 - Rolling 기법을 활용한 시계열 특성 반영
 - Grouping 기반 Feature Engineering 수행
 
+### 📊 Feature Correlation 분석
+<img width="560" height="420" alt="uv" src="https://github.com/user-attachments/assets/22d80db3-d42f-4587-9c8d-c0ba6aa6252d" />
+
+- 5번–24번, 7번–22번 변수 간 높은 상관관계 확인  
+- 해당 변수 그룹을 평균값으로 변환하여 파생 변수 생성  
+  → `mean_5_24`, `mean_7_22`
+
 ---
 
 ## 4. Feature Engineering
